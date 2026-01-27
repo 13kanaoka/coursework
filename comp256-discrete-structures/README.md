@@ -1,6 +1,6 @@
-## COMP 256: Discrete Structures
+# COMP 256: Discrete Structures
 
-# Table of Contents
+### Table of Contents
  1. Introduction to Algorithms
  2. Logic
  3. Proofs
