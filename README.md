@@ -24,7 +24,7 @@ Non-Coding Assignments
 - [Binary Addition](comp122-computer-architecture/deliverables/24-binary-addition)
 - [Digital Logic](comp122-computer-architecture/deliverables/31-digital-logic)  
 
-Coding Assignments (Java -> Java Tac -> MIPS)
+Coding Assignments
 - [Intro Assignment](comp122-computer-architecture/deliverables/04-first-programming-assignment)
 - [Simple Interest](comp122-computer-architecture/deliverables/41-simple-interest)
 - [Checksum](comp122-computer-architecture/deliverables/42-checksum)
