@@ -1,0 +1,20 @@
+## Digital Logic Notes
+
+1. order of power (weakest to strongest)
+	- combination logic;  boolean algebra
+	- sequential logic
+	- finite state automata;  regular expressions
+	- push-down automata;  context free languages
+	- linear-bounded automata;  context sensitive languages
+	- turing machine;  recursively enumerable
+	  - Two programs on tape, OS and user program
+
+	  - Java is a context free language/pushdown automata
+
+
+
+1. boolean cheat sheet
+   - and *    tongue
+   - or  +    arrow
+   - xor ⊕    arrow++
+   - not '    triangle

@@ -1,0 +1,80 @@
+# exam review
+
+1. Binary Numbers and Binary Encodings Recap
+   - 8# - 752, -0752, -0o752
+     - 2# - 000 111 101 010
+     - 		  111 000 010 101   // 1's complement
+     -      111 000 010 110   // 2's complement
+     -      not applicable    // binary encoding (negative numbers cannot be encoded)
+
+
+   - 4# + 32103
+     - 2# - 00 00 00 11 10 01 00 11
+     - 		  00 00 00 11 10 01 00 11   // 1's complement (only flip bits if negative)
+     -      00 00 00 11 10 01 00 11   // 2's complement
+     -      00 00 00 11 10 01 00 11   // binary encoding
+
+
+   - 16# - 7F2.3A
+   	 - 2#  - 0111 1111 0010 . 0011 1010
+   	 -     - 01 . 11 1111 0010 0011 1010 x 2^1010 //10
+   	 - binary32:
+   	   - pattern: | s | eeee eeee | mmmm mmmm mmmm mmmm mmm |
+   	   	 - sign: 1
+   	     - mantissa: 11 1111 0010 0011 1010 0000 0
+   	       - . 11 1111 0010 0011 1010
+   	       - ^ implicit
+   	     - exponent: 10 + 127 == 137
+   	       ```
+   	       0 1111 1100
+   	         0111 1111
+   	      +  0000 1010
+   	         ---------
+   	         1000 1001 == 137
+   	       ```
+   	   - pattern:  | s | eeee eeee | mmmm mmmm mmmm mmmm mmm |
+   	   - encoding: | 1 | 1000 1001 | 1111 1100 1000 1110 100 |
+
+
+   - notes
+   	 - negative numbers cannot be put into binary encoding
+   	 - only flip your bits if negative
+
+
+   - 10# - 45.786  ==>  2# - 101101 . 110001
+     * whole: divide by 2
+       ```
+       45 / 2 = 22, 1
+       22 / 2 = 11, 0
+       11 / 2 =  5, 1
+        5 / 2 =  2, 1
+        2 / 2 =  1, 0
+        1 / 2 =  0, 1
+
+       answer =  101101
+       ```
+     * fractional: multiple by 2
+       ```
+       number =   78
+       max    = 1,0
+       78 * 2 = 1,56
+       56 * 2 = 1,12
+       12 * 2 = 0,24
+       24 * 2 = 0,48
+       48 * 2 = 0,96
+       96 * 2 = 1,9
+       answer = 110001
+       ```
+
+   - | 1110-0000 | 10-00 0000 | 10-00 0000 |
+   - | ffff-dddd | ff-dd dddd | ff-dd dddd |
+
+
+
+
+
+
+
+
+
+
