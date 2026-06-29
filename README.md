@@ -70,3 +70,6 @@ Quizzes & Exams
 
 ## COMP 333 - Concepts of Programming Languages
 - adding shortly!
+
+## COMP 482 - Algorithm Design and Analysis
+- adding shortly!
