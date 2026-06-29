@@ -1,0 +1,9 @@
+
+[case]
+INPUT=../test_cases/135.txt
+EXIT_STATUS=0
+
+
+[case]
+INPUT=../test_cases/183error.txt
+EXIT_STATUS=183

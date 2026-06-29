@@ -1,0 +1,44 @@
+# The script presume the following information is provided for each test case
+#
+# | ENV         | Description                          | Example                 | Option    |
+# |-------------|--------------------------------------|-------------------------|-----------|
+# | DRIVER      | The default driver program           | java_subroutine         | Parameter |
+# | OPTIONS     | The options passed to ${DRIVER}      | "-L ."                  | Optional  |
+# | ENTRY       | The entry point to start testing     | binaryReal              | Required  |
+# | ARGS        | The arguments passed to ${ENTRY}     | '8 "\#"  1234 "." 43'   | Optional  |
+# | INPUT       | The filename contain the input       |                         | Optional  |
+# | OUTPUT      | The filename of the expected output  |                         | Optional  |
+# | EXIT_STATUS | The expected return value            | 0                       | Required  |
+#
+# Notes:
+#    - the value of ENTRY and EXIT_STATUS must be defined for all test cases
+#    - the value of INPUT can either be a string or a filename
+#    - the value of OUTPUT can either be a string or a filename
+#
+# Given the above example, the following command will be executed.
+#   NOTE: Ensure you conform to bash quoting rules
+#
+# cat ${INPUT} | ${DRIVER} ${OPTIONS} ${ENTRY} ${ARGS} 
+#
+# The "[default]" label delineates the default values used for all test cases within the file.
+# The "[case]" label delineates the start of a single test case
+# The "[global]" label delineates the global values which override all values associated with a test case.
+#
+
+[global]
+ENTRY=count_down
+INPUT=
+
+[default]
+DRIVER=java_subroutine
+ENTRY=count_down
+OPTIONS='-R null'
+
+[case]
+ENTRY=count_down
+OPTIONS='-R null'
+ARGS='4'   
+OUTPUT="count_down_4.output"
+EXIT_STATUS=0
+
+

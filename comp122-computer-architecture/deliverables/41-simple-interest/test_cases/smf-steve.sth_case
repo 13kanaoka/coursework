@@ -1,0 +1,3 @@
+[case]
+ARGS="156000 5 10"
+OUTPUT=234000                  # Is this correct?

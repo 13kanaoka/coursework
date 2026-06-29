@@ -1,0 +1,30 @@
+# List of STH Environment variables
+#
+#   DRIVER:        e.g., java_subroutine
+#   OPTIONS:       options to the Driver option
+#
+#   ENTRY:         entry point to test
+#   ARGS:          command line arges to "ENTRY"
+#   INPUT:         stdin passed to "ENTRY"
+#   OUTPUT:        the expected output (stdout) from "ENTRY"
+
+#   EXIT_STATUS:  the expected exit status 
+
+[default]
+DRIVER=java_subroutine
+OPTIONS="-R null"
+
+[global]
+ENTRY=simple_interest
+EXIT_STATUS=0
+
+# You can use the following URL to generate additional test cases
+# https://www.calculatorsoup.com/calculators/financial/simple-interest-calculator.php
+
+[case]
+ARGS="1000 3 2"
+OUTPUT=60
+
+[case]
+ARGS="156000 5 10"
+OUTPUT=78000
