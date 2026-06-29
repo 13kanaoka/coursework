@@ -30,12 +30,6 @@ Coding Assignments
 - [Checksum](comp122-computer-architecture/deliverables/42-checksum)
 - [Binary32](comp122-computer-architecture/deliverables/43-binary32)
 - [Next Int](comp122-computer-architecture/deliverables/44-nextint)  
-    
-Quizzes & Exams
-- [Quiz 1](comp122-computer-architecture/deliverables/10-quiz)
-- [Exam 1](comp122-computer-architecture/deliverables/20-exam-wednesday)
-- [Quiz 2 (digital logic)](comp122-computer-architecture/deliverables/30-quiz-digital-logic)
-- [Exam 2 (UTF-8)](comp122-computer-architecture/deliverables/40-exam-utf8)  
 
 ## COMP 182 - Data Structures and Program Design
 - [Array Reversal](comp182-data-structures/ArrayReversal.java)
