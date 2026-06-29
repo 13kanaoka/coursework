@@ -1,0 +1,13 @@
+[default]
+DRIVER=java_subroutine
+OPTIONS="-R binary32"
+EXIT_STATUS=IGNORE
+
+[global]
+ENTRY=binary32
+
+[case]
+ARGS="'-' 0XFFFFFF '+' 128"
+OUTPUT="| 1 | 11111111 | 11111111111111111111111 |"
+
+# - 1.01011010101 x 2^101

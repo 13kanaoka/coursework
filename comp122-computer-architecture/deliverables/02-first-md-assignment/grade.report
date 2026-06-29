@@ -1,0 +1,34 @@
+# Grading Report
+# Github Account: thiccgin
+# Assignment:    "02-first-MD-assignment"
+# --- Due Date:        "Sep 6 23:59 PDT"
+# --- Version Graded:  "graded_version (1beaa91)"
+# --- Version Date:    "Sep 09 14:34 "
+# --- Status:          "Post Due Date Commits Ignored"
+# --- Last Commit late by: 3754 minutes
+
+  15 Points:  Name (15 points):
+  15 Points:  GitHub Account (15 points):
+  15 Points:  Minimal Number of Commits (15 points):
+   5 Points:  Passed Makefile Test (5 points):
+  25 Points:  Rendering of .md file (25 points):
+  25 Points:  Text Answers (25 points):
+----
+ ${_score} Points:  Total
+
+ASSIGNMENT_02_total="$_score"
+
+
+STUDENT COMMIT HISTORY:
+
+*  1beaa91  Sep 09 14:34 PDT  (HEAD -> main, tag: graded_version, origin/main, origin/HEAD, grading_information)
+*  cb36294  Sep 09 13:50 PDT 
+*  302fc0f  Sep 09 13:42 PDT 
+* Due Date: Sep 6 23:59 PDT  -----------------
+*    561a3ec  Sep 05 02:50 PDT  (tag: submitted)
+|\  
+* |  2793a07  Sep 04 14:40 PDT 
+|/  
+*  c5c31f7  Apr 23 13:53 PDT 
+*  64e6353  Apr 23 13:44 PDT 
+
