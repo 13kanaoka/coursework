@@ -17,23 +17,25 @@ A collection of all my coding assignments and projects during undergrad.
 - [Triangle Printer](comp110-intro-to-programming/TrianglePrinter.java)
 
 ## COMP 122 - Computer Architecture and Assembly
-Assignments
-- [Intro Assignment](comp122-computer-architecture/deliverables/04-first-programming-assignment)
+Non-Coding Assignments
 - [Table Encodings](comp122-computer-architecture/deliverables/21-table-encodings)
 - [UTF8 Encodings](comp122-computer-architecture/deliverables/22-utf8-encodings)
 - [Floating Point](comp122-computer-architecture/deliverables/23-floating-point)
 - [Binary Addition](comp122-computer-architecture/deliverables/24-binary-addition)
-- [Digital Logic](comp122-computer-architecture/deliverables/31-digital-logic)
+- [Digital Logic](comp122-computer-architecture/deliverables/31-digital-logic)  
+
+Coding Assignments (Java -> Java Tac -> MIPS)
+- [Intro Assignment](comp122-computer-architecture/deliverables/04-first-programming-assignment)
 - [Simple Interest](comp122-computer-architecture/deliverables/41-simple-interest)
 - [Checksum](comp122-computer-architecture/deliverables/42-checksum)
 - [Binary32](comp122-computer-architecture/deliverables/43-binary32)
-- [Next Int](comp122-computer-architecture/deliverables/44-nextint)
+- [Next Int](comp122-computer-architecture/deliverables/44-nextint)  
     
 Quizzes & Exams
 - [Quiz 1](comp122-computer-architecture/deliverables/10-quiz)
 - [Exam 1](comp122-computer-architecture/deliverables/20-exam-wednesday)
 - [Quiz 2 (digital logic)](comp122-computer-architecture/deliverables/30-quiz-digital-logic)
-- [Exam 2 (UTF-8)](comp122-computer-architecture/deliverables/40-exam-utf8)
+- [Exam 2 (UTF-8)](comp122-computer-architecture/deliverables/40-exam-utf8)  
 
 ## COMP 182 - Data Structures and Program Design
 - [Array Reversal](comp182-data-structures/ArrayReversal.java)
