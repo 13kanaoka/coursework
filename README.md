@@ -49,6 +49,9 @@ Quizzes & Exams
 - [Stack Demo](comp182-data-structures/StackDemo.java)
 - [Print Queue Simulation](comp182-data-structures/print-queue-simulation)
 
+## COMP 222 - Computer Organization
+- adding shortly!
+
 ## COMP 256 - Discrete Structures
 - [Onboarding](comp256-discrete-structures/a00-onboarding)
 - [Function Properties](comp256-discrete-structures/a51-function-properties)
@@ -61,3 +64,9 @@ Quizzes & Exams
 
 ## COMP 282 - Advanced Data Structures and Algorithms
 - [Traveling Salesman](comp282-advanced-algorithms/TravelingSalesman)
+
+## COMP 324 - Computer Networking and Security
+- adding shortly!
+
+## COMP 333 - Concepts of Programming Languages
+- adding shortly!
