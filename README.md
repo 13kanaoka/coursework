@@ -66,6 +66,9 @@ A collection of all my coding assignments and projects during undergrad.
 ## COMP 282 - Advanced Data Structures and Algorithms
 - [Binary Search Tree](comp282-advanced-algorithms/project01-BinarySearchTree)
 - [Balanced Trees](comp282-advanced-algorithms/project02-BalancedTrees)
+   - AVL, 2-3-4, RedBlack, Splay
+- [Graph Algorithms](comp282-advanced-algorithms/project03-GraphAlgorithms)
+   - Dijkstra's, Kruskal's, Nearest Neighbor Heuristic
 - [Traveling Salesman](comp282-advanced-algorithms/project03-TravelingSalesman)
 
 ## COMP 324 - Computer Networking and Security
