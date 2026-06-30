@@ -1,0 +1,87 @@
+name: GitHub Classroom Workflow
+on:
+  push:
+    branches:
+      - "*"
+  workflow_dispatch:
+permissions:
+  checks: write
+  actions: read
+  contents: read
+jobs:
+  run-autograding-tests:
+    runs-on: ubuntu-latest
+    if: github.actor != 'github-classroom[bot]'
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      - name: Install pytest
+        run: pip install pytest
+      - name: Compile tests
+        id: compile
+        uses: classroom-resources/autograding-command-grader@v1
+        with:
+          test-name: Compile tests
+          setup-command: ''
+          command: python3 -m py_compile main.py
+          timeout: 5
+          max-score: 10
+      - name: Run tests
+        id: run
+        uses: classroom-resources/autograding-command-grader@v1
+        with:
+          test-name: Run tests
+          setup-command: ''
+          command: python3 main.py < data/data.txt
+          timeout: 10
+          max-score: 10
+      - name: T1 tests
+        id: t1
+        uses: classroom-resources/autograding-command-grader@v1
+        with:
+          test-name: T1 tests
+          setup-command: ''
+          command: pytest -rP -m T1
+          timeout: 10
+          max-score: 20
+      - name: T2 tests
+        id: t2
+        uses: classroom-resources/autograding-command-grader@v1
+        with:
+          test-name: T2 tests
+          setup-command: ''
+          command: pytest -rP -m T2
+          timeout: 10
+          max-score: 20
+      - name: T3 tests
+        id: t3
+        uses: classroom-resources/autograding-command-grader@v1
+        with:
+          test-name: T3 tests
+          setup-command: ''
+          command: pytest -rP -m T3
+          timeout: 10
+          max-score: 20
+      - name: T4 tests
+        id: t4
+        uses: classroom-resources/autograding-command-grader@v1
+        with:
+          test-name: T4 tests
+          setup-command: ''
+          command: pytest -rP -m T4
+          timeout: 10
+          max-score: 20
+      - name: Autograding Reporter
+        uses: classroom-resources/autograding-grading-reporter@v1
+        env:
+          COMPILE_RESULTS: "${{steps.compile.outputs.result}}"
+          RUN_RESULTS: "${{steps.run.outputs.result}}"
+          T1_RESULTS: "${{steps.t1.outputs.result}}"
+          T2_RESULTS: "${{steps.t2.outputs.result}}"
+          T3_RESULTS: "${{steps.t3.outputs.result}}"
+          T4_RESULTS: "${{steps.t4.outputs.result}}"
+        with:
+          runners: compile,run,t1,t2,t3,t4
