@@ -2,46 +2,53 @@
 
 A collection of all my coding assignments and projects during undergrad.
 
-## COMP 110 - Intro to Programming
-- [Char Casting](comp110-intro-to-programming/CharCasting.java)
-- [Craps Game](comp110-intro-to-programming/CrapsGame.java)
-- [Monogram Generator](comp110-intro-to-programming/MonogramGenerator.java)
-- [Name Formatter](comp110-intro-to-programming/NameFormatter.java)
-- [Password Validator](comp110-intro-to-programming/PasswordValidator.java)
-- [Quadratic Equation](comp110-intro-to-programming/QuadraticEquation.java)
-- [Shipping Calculator](comp110-intro-to-programming/ShippingCalculator.java)
-- [Signed Number Stats](comp110-intro-to-programming/SignedNumberStats.java)
-- [Sorted Checker](comp110-intro-to-programming/SortedChecker.java)
-- [Swap Demo](comp110-intro-to-programming/SwapDemo.java)
-- [Temperature Converter](comp110-intro-to-programming/TemperatureConverter.java)
-- [Triangle Printer](comp110-intro-to-programming/TrianglePrinter.java)
+## COMP 110/L - Intro to Programming
+**Labs**
+- [Char Casting](comp110-intro-to-programming/lab01-CharCasting.java)
+- [Monogram Generator](comp110-intro-to-programming/lab02-MonogramGenerator.java)
+- [Password Validator](comp110-intro-to-programming/lab03-PasswordValidator.java)
+- [Quadratic Equation](comp110-intro-to-programming/lab04-QuadraticEquation.java)
+- [Shipping Calculator](comp110-intro-to-programming/lab05-ShippingCalculator.java)
+- [Signed Number Stats](comp110-intro-to-programming/lab06-SignedNumberStats.java)
+- [Sorted Checker](comp110-intro-to-programming/lab07-SortedChecker.java)
+- [Swap Demo](comp110-intro-to-programming/lab08-SwapDemo.java)
+- [Temperature Converter](comp110-intro-to-programming/lab09-TemperatureConverter.java)
 
-## COMP 122 - Computer Architecture and Assembly
-Non-Coding Assignments
+**Projects**
+- [Name Formatter](comp110-intro-to-programming/project01-NameFormatter.java)
+- [Triangle Printer](comp110-intro-to-programming/project02-TrianglePrinter.java)
+- [Craps Game](comp110-intro-to-programming/project03-CrapsGame.java)
+
+## COMP 122/L - Computer Architecture and Assembly
+**Non-Coding Assignments**
 - [Table Encodings](comp122-computer-architecture/deliverables/21-table-encodings)
 - [UTF8 Encodings](comp122-computer-architecture/deliverables/22-utf8-encodings)
 - [Floating Point](comp122-computer-architecture/deliverables/23-floating-point)
 - [Binary Addition](comp122-computer-architecture/deliverables/24-binary-addition)
 - [Digital Logic](comp122-computer-architecture/deliverables/31-digital-logic)  
 
-Coding Assignments
+**Coding Assignments**
 - [Intro Assignment](comp122-computer-architecture/deliverables/04-first-programming-assignment)
 - [Simple Interest](comp122-computer-architecture/deliverables/41-simple-interest)
 - [Checksum](comp122-computer-architecture/deliverables/42-checksum)
 - [Binary32](comp122-computer-architecture/deliverables/43-binary32)
 - [Next Int](comp122-computer-architecture/deliverables/44-nextint)  
 
-## COMP 182 - Data Structures and Program Design
-- [Array Reversal](comp182-data-structures/ArrayReversal.java)
-- [Binary Search](comp182-data-structures/BinarySearch.java)
-- [Grade Book](comp182-data-structures/GradeBook.java)
-- [Is Palindrome](comp182-data-structures/IsPalindrome.java)
-- [Merge Sort](comp182-data-structures/MergeSort.java)
-- [Range Sort Checker](comp182-data-structures/RangeSortChecker.java)
-- [Recursive Digital Counter](comp182-data-structures/RecursiveDigitalCounter.java)
-- [Selection Sort](comp182-data-structures/SelectionSort.java)
-- [Stack Demo](comp182-data-structures/StackDemo.java)
-- [Print Queue Simulation](comp182-data-structures/print-queue-simulation)
+## COMP 182/L - Data Structures and Program Design
+**Labs**
+- [Array Reversal](comp182-data-structures/lab01-ArrayReversal.java)
+- [Recursive Digital Counter](comp182-data-structures/lab02-RecursiveDigitalCounter.java)
+- [Range Sort Checker](comp182-data-structures/lab03-RangeSortChecker.java)
+- [Is Palindrome](comp182-data-structures/lab04-IsPalindrome.java)
+- [Stack Demo](comp182-data-structures/lab05-StackDemo.java)
+- [Grade Book](comp182-data-structures/lab06-GradeBook.java)
+- [Merge Sort](comp182-data-structures/lab07-MergeSort.java)
+- [Selection Sort](comp182-data-structures/lab08-SelectionSort.java)
+
+**Projects**
+- [Binary Search with Selection Sort](comp182-data-structures/project01-BinarySearch.java)
+- [Print Queue Simulation](comp182-data-structures/project02-print-queue-simulator)
+- [Guessing Game](comp182-data-structures/project03-GuessingGame.java)
 
 ## COMP 222 - Computer Organization
 - adding shortly!
@@ -57,7 +64,9 @@ Coding Assignments
 - [Graph Powers and Walks](comp256-discrete-structures/ch7a04-graph-powers-and-walks)
 
 ## COMP 282 - Advanced Data Structures and Algorithms
-- [Traveling Salesman](comp282-advanced-algorithms/TravelingSalesman)
+- [Binary Search Tree](comp282-advanced-algorithms/project01-BinarySearchTree)
+- [Balanced Trees](comp282-advanced-algorithms/project02-BalancedTrees)
+- [Traveling Salesman](comp282-advanced-algorithms/project03-TravelingSalesman)
 
 ## COMP 324 - Computer Networking and Security
 - adding shortly!
