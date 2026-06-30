@@ -2,7 +2,7 @@
 
 A collection of all my coding assignments and projects during undergrad.
 
-## COMP 110/L - Intro to Programming
+## COMP 110 - Intro to Programming
 **Labs**
 - [Char Casting](comp110-intro-to-programming/lab01-CharCasting.java)
 - [Monogram Generator](comp110-intro-to-programming/lab02-MonogramGenerator.java)
@@ -19,7 +19,7 @@ A collection of all my coding assignments and projects during undergrad.
 - [Triangle Printer](comp110-intro-to-programming/project02-TrianglePrinter.java)
 - [Craps Game](comp110-intro-to-programming/project03-CrapsGame.java)
 
-## COMP 122/L - Computer Architecture and Assembly
+## COMP 122 - Computer Architecture and Assembly
 **Non-Coding Assignments**
 - [Table Encodings](comp122-computer-architecture/deliverables/21-table-encodings)
 - [UTF8 Encodings](comp122-computer-architecture/deliverables/22-utf8-encodings)
@@ -34,7 +34,7 @@ A collection of all my coding assignments and projects during undergrad.
 - [Binary32](comp122-computer-architecture/deliverables/43-binary32)
 - [Next Int](comp122-computer-architecture/deliverables/44-nextint)  
 
-## COMP 182/L - Data Structures and Program Design
+## COMP 182 - Data Structures and Program Design
 **Labs**
 - [Array Reversal](comp182-data-structures/lab01-ArrayReversal.java)
 - [Recursive Digital Counter](comp182-data-structures/lab02-RecursiveDigitalCounter.java)
