@@ -77,5 +77,10 @@ A collection of all my coding assignments and projects during undergrad.
 ## COMP 333 - Concepts of Programming Languages
 - adding shortly!
 
+## COMP 380 - Intro to Software Engineering
+- [CSUN MERN Messaging Platform](https://github.com/mattres2001/csun-mern-chat-app)
+   - Full-stack web application built as an agile team using Jira
+   - Uses MERN tech stack (MongoDB, Express, React, Node.js) and websockets for real-time messaging
+
 ## COMP 482 - Algorithm Design and Analysis
 - adding shortly!
