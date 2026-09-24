@@ -20,7 +20,6 @@
 ; returns a new list with only the factors of n remaining
 (define (factor-list n)
   (filter (lambda (x)(= 0 (modulo n x))) (int-list n))
-
   )
 
 ; test cases
