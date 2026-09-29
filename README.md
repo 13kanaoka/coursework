@@ -3,7 +3,7 @@
 A collection of all my coding assignments and projects during undergrad.
 
 ## COMP 110 - Intro to Programming
-**Labs**
+#### Labs
 - [Char Casting](comp110-intro-to-programming/lab01-CharCasting.java)
 - [Monogram Generator](comp110-intro-to-programming/lab02-MonogramGenerator.java)
 - [Password Validator](comp110-intro-to-programming/lab03-PasswordValidator.java)
@@ -14,20 +14,20 @@ A collection of all my coding assignments and projects during undergrad.
 - [Swap Demo](comp110-intro-to-programming/lab08-SwapDemo.java)
 - [Temperature Converter](comp110-intro-to-programming/lab09-TemperatureConverter.java)
 
-**Projects**
+#### Projects
 - [Name Formatter](comp110-intro-to-programming/project01-NameFormatter.java)
 - [Triangle Printer](comp110-intro-to-programming/project02-TrianglePrinter.java)
 - [Craps Game](comp110-intro-to-programming/project03-CrapsGame.java)
 
 ## COMP 122 - Computer Architecture and Assembly
-**Non-Coding Assignments**
+#### Non-Coding Assignments
 - [Table Encodings](comp122-computer-architecture/deliverables/21-table-encodings)
 - [UTF8 Encodings](comp122-computer-architecture/deliverables/22-utf8-encodings)
 - [Floating Point](comp122-computer-architecture/deliverables/23-floating-point)
 - [Binary Addition](comp122-computer-architecture/deliverables/24-binary-addition)
 - [Digital Logic](comp122-computer-architecture/deliverables/31-digital-logic)  
 
-**Coding Assignments**
+#### Coding Assignments
 - [Intro Assignment](comp122-computer-architecture/deliverables/04-first-programming-assignment)
 - [Simple Interest](comp122-computer-architecture/deliverables/41-simple-interest)
 - [Checksum](comp122-computer-architecture/deliverables/42-checksum)
@@ -35,7 +35,7 @@ A collection of all my coding assignments and projects during undergrad.
 - [Next Int](comp122-computer-architecture/deliverables/44-nextint)  
 
 ## COMP 182 - Data Structures and Program Design
-**Labs**
+#### Labs
 - [Array Reversal](comp182-data-structures/lab01-ArrayReversal.java)
 - [Recursive Digital Counter](comp182-data-structures/lab02-RecursiveDigitalCounter.java)
 - [Range Sort Checker](comp182-data-structures/lab03-RangeSortChecker.java)
@@ -45,13 +45,13 @@ A collection of all my coding assignments and projects during undergrad.
 - [Merge Sort](comp182-data-structures/lab07-MergeSort.java)
 - [Selection Sort](comp182-data-structures/lab08-SelectionSort.java)
 
-**Projects**
+#### Projects
 - [Binary Search with Selection Sort](comp182-data-structures/project01-BinarySearch.java)
 - [Print Queue Simulation](comp182-data-structures/project02-print-queue-simulator)
 - [Guessing Game](comp182-data-structures/project03-GuessingGame.java)
 
 ## COMP 222 - Computer Organization
-- adding shortly!
+- [Measuring Performance](comp222-comp-organization/assignments/assignment01-measuring-performance.c)
 
 ## COMP 256 - Discrete Structures
 - [Onboarding](comp256-discrete-structures/a00-onboarding)
@@ -75,10 +75,10 @@ A collection of all my coding assignments and projects during undergrad.
 - adding shortly!
 
 ## COMP 333 - Concepts of Programming Languages
-- adding shortly!
+- [Racket Recursion](comp333-concepts-prog-langs/projects/project01-racket-recursion.rkt)
 
 ## COMP 380 - Intro to Software Engineering
-- [CSUN MERN Messaging Platform](https://github.com/mattres2001/csun-mern-chat-app)
+- [CSUN MERN Messaging Platform](https://github.com/13kanaoka/csun-chat-app)
    - Full-stack web application built as an agile team using Jira
    - Uses MERN tech stack (MongoDB, Express, React, Node.js) and websockets for real-time messaging
 
