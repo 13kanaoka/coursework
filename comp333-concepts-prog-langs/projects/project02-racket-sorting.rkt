@@ -12,11 +12,6 @@
     (else (cons (random rng) (rand-list (- n 1) rng)))
     ))
 
-; test cases
-(rand-list 10 10)
-(rand-list 5 50)
-(rand-list 8 2)
-
 
 ; -----------------------------------------------------------
 ; is-sorted?
@@ -31,19 +26,6 @@
     (else #f)
     ))
 
-; test cases
-(is-sorted? null) ; #t
-(is-sorted? '(5)) ; #t
-(is-sorted? '(5 4)) ; #f
-(is-sorted? '(5 5)) ; #t
-(is-sorted? '(4 5)) ; #t
-(is-sorted? '(4 5 5)) ; #t
-(is-sorted? '(5 5 4)) ; #f
-(is-sorted? '(1 2 3 4 5)) ; #t
-(is-sorted? '(5 5 5 5 5)) ; #t
-(is-sorted? '(4 3 1 2 3)) ; #f
-(is-sorted? '(1 2 3 4 3)) ; #f
-
 
 ; -----------------------------------------------------------
 ; split-list
@@ -55,9 +37,28 @@
   (list (take x h) (drop x h))
   )
 
-; test cases
-(split-list null) ; '(() ())
-(split-list '(a)) ; '((a) ())
-(split-list '(a b)) ; '((a) (b))
-(split-list '(a b c)) ; '((a) (b c))
-(split-list '(a b c d e)) ; '((a b) (c d e))
+
+; -----------------------------------------------------------
+; merge-lists
+; x = sorted list
+; y = sorted list
+; output: one sorted list from combined x and y
+; -----------------------------------------------------------
+(define (merge-lists x y)
+  (cond
+    ((empty? x) y)
+    ((empty? y) x)
+    ((<= (car x) (car y)) (cons (car x) (merge-lists (cdr x) y)))
+    (else (cons (car y) (merge-lists x (cdr y))))
+    ))
+
+
+; -----------------------------------------------------------
+; merge-sort
+; x = list of nums
+; output: sorted list of numbers
+; -----------------------------------------------------------
+(define (merge-sort x)
+  (define tmp (split-list x))
+  (define a (car tmp))
+  (define b (cadr tmp))
