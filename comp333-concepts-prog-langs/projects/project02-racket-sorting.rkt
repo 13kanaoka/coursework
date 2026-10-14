@@ -59,6 +59,11 @@
 ; output: sorted list of numbers
 ; -----------------------------------------------------------
 (define (merge-sort x)
-  (define tmp (split-list x))
-  (define a (car tmp))
-  (define b (cadr tmp))
+  (cond 
+    ((or (empty? x) (empty? (cdr x))) x)
+    (else 
+     (define tmp (split-list x))
+     (define a (car tmp))
+     (define b (cadr tmp))
+     (merge-lists (merge-sort a) (merge-sort b)))
+    ))
